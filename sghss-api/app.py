@@ -98,4 +98,5 @@ if __name__ == '__main__':
     print("\nDocumentação completa: http://localhost:5000/health")
     print("=" * 50)
     
-    app.run(debug=True, port=5000, host='0.0.0.0')
+
+    app.run(port=5000, host='0.0.0.0')
