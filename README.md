@@ -21,6 +21,10 @@ Execute a aplicação:
 
 python app.py
 
+Caso não funcionar, tente:
+
+python app.py --host=0.0.0.0 --port=5000
+
 Verifique se está funcionando acessando:
 
 http://localhost:5000/health
